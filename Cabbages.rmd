@@ -30,11 +30,18 @@ $H_A$:There is a difference in Vitamin C content of cabbages based on cultivatio
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+The responce variable (how much vitamin c) is numerical; the input variable is categorical. We have a Num ~ Cat 
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+This table shows that cultivation method c52 has a higher vitamin C content than c39.c52 shows an average difference of about 13.
 
 ### Graphical Descriptive Results
 
